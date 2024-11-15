@@ -4,8 +4,8 @@ import {getFirestore } from 'firebase/firestore';
 import { getAuth, GoogleAuthProvider, createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPopup } from 'firebase/auth';
 import "firebase/compat/firestore";
 
-firebase.initializeApp({ //enter firebase config
-});
+firebase.initializeApp({  //api details
+  });
 
 const firebaseConfig = {
  //enter firebase config
